@@ -3,7 +3,7 @@ body {
     margin: 20px;
 }
 
-h1{
+h1, h2{
     color: #244f7a;
     text-align: center;
 }
@@ -11,4 +11,20 @@ h1{
 p{
     font-size: 18px;
     text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    font-size: 18px;
 }
